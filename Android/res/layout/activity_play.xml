@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical" >
+
+    <include layout="@layout/app_bar_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <EditText
+            android:id="@+id/play_input"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/play_input_bg"
+            android:hint="@string/txt_hahah"
+            android:inputType="textUri"
+            android:text="@string/txt_hahah"
+            android:textColor="#ff8c00"
+            android:textColorHighlight="#FFCCCCCC"
+            android:textColorHint="#FFFFFF00"
+            android:textScaleX="0.8"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            android:typeface="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_below="@id/play_input"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/play_btn0"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:text="@string/play_btn0" />
+
+            <Button
+                android:id="@+id/play_btn1"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:text="@string/play_btn1" />
+
+            <Button
+                android:id="@+id/play_btn2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:text="@string/play_btn2" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

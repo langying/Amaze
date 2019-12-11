@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WebVR</string>
+    <string name="app_demo">天马行空</string>
+    <string name="demo_open_txt">打开</string>
+    <string name="demo_http_hit">输入JS对应URL</string>
+    <string name="txt_empty"></string>
+    <string name="txt_btn_back">返回</string>
+    <string name="txt_bar_title">WebVRSDK</string>
+    <string name="txt_btn_search">搜索</string>
+    <string name="txt_btn_submit">提交</string>
+    <string name="txt_hahah">落霞与孤鹜齐飞</string>
+    <string name="main_head_icon0">展厅</string>
+    <string name="main_head_icon1">影视</string>
+    <string name="main_head_icon2">摄影</string>
+    <string name="main_head_icon3">测试</string>
+    <string name="main_list_head_txt">Demo展示</string>
+    <string name="txt_donwload_update">正在下载更新</string>
+    <string name="dialog_loading_txt">加载中…</string>
+    <string name="update_title">发现新版本</string>
+    <string name="play_btn0">2D视频</string>
+    <string name="play_btn1">单屏全景</string>
+    <string name="play_btn2">分屏全景</string>
+    <string name="empty"></string>
+
+</resources>

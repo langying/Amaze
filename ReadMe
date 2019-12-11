@@ -1,0 +1,64 @@
+遗留的问题：
+所有WebGL的返回，均以number类型表示，在duktape中不是object，因此没有自己的属性字段，才导致了以下bug的出现：
+1.0. three.js中的fetchUniformLocations函数，使用gl.getUniformLocation返回的类型是number，标准返回的类型是WebGLUniformLocation
+当location != 0时候，二者在three.js的效果一样。
+当location == 0时候，而知在three.js的效果不同：表现在initMaterial函数的if(location)语句，number==0,表示条件不成立，WebGLUniformLocation的内容为0，但是对象存在，因此条件成立。
+当location == 0 || location == null || location == undeined的时候，如果我们需要location为number，则添加判断 if (typeof location === 'number')[three.js中就是这么改的]
+1.1 three.js中THREE.ImageLoader.load函数中:
+image.addEventListener( 'load', callback);在callback中使用了this指针，在回调中this不是image，而是callback，导致image.width/height无法正常读取，因此改成this -> image
+1.2 vShadowCoord[ i ] = shadowMatrix[ i ] * worldPosition;
+Dynamic Indexing
+Dynamic indexing of arrays, vectors and matrices is not directly supported by some implementations. Program transforms exist but the performance is reduced.
+Should dynamic indexing of arrays be removed from the specification?
+RESOLUTION: Keep dynamic indexing of uniforms (for skinning). Remove for temps (in the limitations section).
+
+
+2. three.js中parseTrackName有个正则表达式，可能由于过长的缘故，在duktap加载js文件
+WebGL兼容性:
+copyTexImage2D/copyTexSubImage2D/generateMipmap/getContextAttributes/getExtension/getFramebufferAttachmentParameter/getRenderbufferParameter/
+getSupportedExtensions
+getUniform>=没有同步
+
+3. Android与iOS在WebGL的bindFramebuffer时的不同：
+苹果：系统默认会创建一个framebuffer=1的fbo；这点苹果要保留一行代码;
+安卓：系统默认会创建一个framebuffer=0的fbo；这点安卓要删除一行代码;
+
+
+3.1 laya中，使用了高级特性Object.__defineGetter__, Object.prototype.__defineGetter__
+这个在duktape中不支持
+
+4. flappybird的score代码要注释掉，因为scroe要从cookie中读取数据，这里暂时没有API支持。
+
+总结:
+Android Native:https://android.googlesource.com/platform/frameworks/native
+解码PNG的库：libpng, https://github.com/lvandeve/lodepng
+
+2015-11-06 22:17:22.641 duktape[1260:28848] 22:17:22.640 ERROR:    177: timed out after 0.012s (4701 4702); mMajorChangePending=0
+
+性能优化：
+0. Matrix已经native到本地，优化不明显
+1. https://github.com/tweenjs/tween.js native到本地
+2. Pixi.Graphics，多种图形算法
+
+滤镜
+http://blog.csdn.net/neng18/article/details/38083987?utm_source=tuicool&utm_medium=referral
+
+ffmpeg
+经过长期模式，测试，可以用以下方法缩小，在configure的时候加上类似如下的参数:
+--prefix=/AAAA --disable-yasm --disable-encoders --disable-decoders --enable-decoder=h264
+--disable-yasm --disable-everything --enable-decoder=h264 --enable-parser=h264
+解释
+--disable-encoders       屏蔽所有编码器
+--disable-decoders       屏蔽所有解码器
+--enable-decoder=h264    启用h264解码器
+这样编译出来的 avcodec.dll就会变成 700多K左右，另外几个 avutil.dll、swscale.dll 等等，大小不会变。它们也没有多大。
+
+WebGL Demos:
+https://developer.mozilla.org/zh-CN/demos/
+
+
+ps与top在RSS上是一样的，如果只看RSS，那么直接使用top命令好了: top | grep chrome
+dumpsys获取的是PSS，在魔盒上获取的PSS反而比RSS大很多，感觉数据不准【VSS>=RSS>=PSS>=USS】: dumpsys meminfo package/pid | grep xxx
+
+
+

@@ -1,0 +1,92 @@
+{
+	head : [ {
+		img : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/run/index.jpg",
+		url : "http://aevideo.oss-cn-shanghai.aliyuncs.com/run/index.js",
+		name : "奔跑吧"
+	}, {
+		img : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/solar/index.jpg",
+		url : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/solar/index.js",
+		name : "太阳系"
+	}, {
+		img : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/horse/index.jpg",
+		url : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/horse/index.js",
+		name : "天马行空"
+	}, {
+		img : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/roller/index.jpg",
+		url : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/roller/index.js",
+		name : "过山车"
+	} ],
+	body : [ {
+		line : 1,
+		img1 : "",
+		url1 : "",
+		name1 : "增强现实WebAR",
+		img2 : "",
+		url2 : "",
+		name2 : ""
+	}, {
+		line : 0,
+		img1 : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/horse/index.jpg",
+		url1 : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/horse/index.js",
+		name1 : "天马行空",
+		img2 : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/earth/index.jpg",
+		url2 : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/earth/index.js",
+		name2 : "虚拟地球"
+	}, {
+		line : 1,
+		img1 : "",
+		url1 : "",
+		name1 : "虚拟现实WebVR",
+		img2 : "",
+		url2 : "",
+		name2 : ""
+	}, {
+		line : 0,
+		img1 : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/roller/index.jpg",
+		url1 : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/roller/index.js",
+		name1 : "过山车·加载时长约60s",
+		img2 : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/360/index.jpg",
+		url2 : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/360/index.js",
+		name2 : "单屏全景图片"
+	}, {
+		line : 0,
+		img1 : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/img/12.jpg",
+		url1 : "file:///asset/12/index.js",
+		name1 : "分屏全景视频·杨洋",
+		img2 : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/img/22.jpg",
+		url2 : "file:///asset/22/index.js",
+		name2 : "分屏全景视频·迪丽热巴"
+	}, {
+		line : 1,
+		img1 : "",
+		url1 : "",
+		name1 : "Web3D渲染",
+		img2 : "",
+		url2 : "",
+		name2 : ""
+	}, {
+		line : 0,
+		img1 : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/solar/index.jpg",
+		url1 : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/solar/index.js",
+		name1 : "太阳系",
+		img2 : "",
+		url2 : "",
+		name2 : ""
+	}, {
+		line : 1,
+		img1 : "",
+		url1 : "",
+		name1 : "Web2D渲染",
+		img2 : "",
+		url2 : "",
+		name2 : ""
+	}, {
+		line : 0,
+		img1 : "http://aeapp.oss-cn-hangzhou.aliyuncs.com/run/index.jpg",
+		url1 : "http://aevideo.oss-cn-shanghai.aliyuncs.com/run/index.js",
+		name1 : "奔跑吧",
+		img2 : "",
+		url2 : "",
+		name2 : ""
+	} ]
+};

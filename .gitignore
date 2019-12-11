@@ -1,0 +1,12 @@
+/Pods
+/Podfile.lock
+/Amaze.xcworkspace
+/Amaze.xcodeproj/xcuserdata
+/Amaze.xcodeproj/project.xcworkspace/xcuserdata
+/Android/obj/
+/Android/bin/
+/Android/gen/
+/Android/proguard/
+/Android/.cproject
+
+

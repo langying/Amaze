@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ECB8ED3A22B7F6EBA1047AF /* libPods-Amaze.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02AADBEFBCB5B4D69FC3CCC9 /* libPods-Amaze.a */; };
+		D43EDD9B1D9CB0750053AB31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D43EDD9A1D9CB0750053AB31 /* main.m */; };
+		D43EDD9E1D9CB0750053AB31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D43EDD9D1D9CB0750053AB31 /* AppDelegate.m */; };
+		D43EDDA11D9CB0750053AB31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43EDDA01D9CB0750053AB31 /* ViewController.m */; };
+		D43EDDA61D9CB0750053AB31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43EDDA51D9CB0750053AB31 /* Assets.xcassets */; };
+		D48E058D1D9CB14500981CC1 /* AEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D48E058A1D9CB14500981CC1 /* AEViewController.m */; };
+		D4BAF05D1E45B67700C59475 /* AEWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BAF05C1E45B67700C59475 /* AEWebViewController.m */; };
+		D4BAF0611E45BB7E00C59475 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BAF0601E45BB7E00C59475 /* AVFoundation.framework */; };
+		D4F2656A1E45B26D002FD332 /* AEIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F265691E45B26D002FD332 /* AEIndexViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02AADBEFBCB5B4D69FC3CCC9 /* libPods-Amaze.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Amaze.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C1DF1AF5E91001F9CF8A07 /* Pods-Amaze.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaze.release.xcconfig"; path = "Pods/Target Support Files/Pods-Amaze/Pods-Amaze.release.xcconfig"; sourceTree = "<group>"; };
+		A895E3658F3334D7EA94720C /* Pods-Amaze.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Amaze.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Amaze/Pods-Amaze.debug.xcconfig"; sourceTree = "<group>"; };
+		D43EDD961D9CB0750053AB31 /* Amaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43EDD9A1D9CB0750053AB31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D43EDD9C1D9CB0750053AB31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D43EDD9D1D9CB0750053AB31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D43EDD9F1D9CB0750053AB31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D43EDDA01D9CB0750053AB31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D43EDDA51D9CB0750053AB31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D43EDDAA1D9CB0750053AB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48E05891D9CB14500981CC1 /* AEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEViewController.h; sourceTree = "<group>"; };
+		D48E058A1D9CB14500981CC1 /* AEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEViewController.m; sourceTree = "<group>"; };
+		D4BAF05B1E45B67700C59475 /* AEWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEWebViewController.h; sourceTree = "<group>"; };
+		D4BAF05C1E45B67700C59475 /* AEWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEWebViewController.m; sourceTree = "<group>"; };
+		D4BAF05E1E45BB5200C59475 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D4BAF0601E45BB7E00C59475 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D4F265681E45B26D002FD332 /* AEIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEIndexViewController.h; sourceTree = "<group>"; };
+		D4F265691E45B26D002FD332 /* AEIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEIndexViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D43EDD931D9CB0750053AB31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BAF0611E45BB7E00C59475 /* AVFoundation.framework in Frameworks */,
+				9ECB8ED3A22B7F6EBA1047AF /* libPods-Amaze.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17DC095E8DC265C71F8160F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A895E3658F3334D7EA94720C /* Pods-Amaze.debug.xcconfig */,
+				65C1DF1AF5E91001F9CF8A07 /* Pods-Amaze.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		385B330E85E208F923240263 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAF0601E45BB7E00C59475 /* AVFoundation.framework */,
+				D4BAF05E1E45BB5200C59475 /* CoreVideo.framework */,
+				02AADBEFBCB5B4D69FC3CCC9 /* libPods-Amaze.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D43EDD8D1D9CB0750053AB31 = {
+			isa = PBXGroup;
+			children = (
+				D43EDD981D9CB0750053AB31 /* Amaze */,
+				385B330E85E208F923240263 /* Frameworks */,
+				17DC095E8DC265C71F8160F1 /* Pods */,
+				D43EDD971D9CB0750053AB31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D43EDD971D9CB0750053AB31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D43EDD961D9CB0750053AB31 /* Amaze.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D43EDD981D9CB0750053AB31 /* Amaze */ = {
+			isa = PBXGroup;
+			children = (
+				D43EDD9C1D9CB0750053AB31 /* AppDelegate.h */,
+				D43EDD9D1D9CB0750053AB31 /* AppDelegate.m */,
+				D43EDD9F1D9CB0750053AB31 /* ViewController.h */,
+				D43EDDA01D9CB0750053AB31 /* ViewController.m */,
+				D43EDDA51D9CB0750053AB31 /* Assets.xcassets */,
+				D48E05881D9CB14500981CC1 /* Classes */,
+				D48E058F1D9CB15D00981CC1 /* Resources */,
+				D43EDD991D9CB0750053AB31 /* Supporting Files */,
+			);
+			path = Amaze;
+			sourceTree = "<group>";
+		};
+		D43EDD991D9CB0750053AB31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D43EDDAA1D9CB0750053AB31 /* Info.plist */,
+				D43EDD9A1D9CB0750053AB31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D48E05881D9CB14500981CC1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D4F265671E45B25D002FD332 /* Index */,
+				D4BAF05A1E45B65800C59475 /* Web */,
+				D48E05891D9CB14500981CC1 /* AEViewController.h */,
+				D48E058A1D9CB14500981CC1 /* AEViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D48E058F1D9CB15D00981CC1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D4BAF05A1E45B65800C59475 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				D4BAF05B1E45B67700C59475 /* AEWebViewController.h */,
+				D4BAF05C1E45B67700C59475 /* AEWebViewController.m */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		D4F265671E45B25D002FD332 /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				D4F265681E45B26D002FD332 /* AEIndexViewController.h */,
+				D4F265691E45B26D002FD332 /* AEIndexViewController.m */,
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D43EDD951D9CB0750053AB31 /* Amaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43EDDAD1D9CB0750053AB31 /* Build configuration list for PBXNativeTarget "Amaze" */;
+			buildPhases = (
+				8AC76537C7C06A6C26690966 /* [CP] Check Pods Manifest.lock */,
+				D43EDD921D9CB0750053AB31 /* Sources */,
+				D43EDD931D9CB0750053AB31 /* Frameworks */,
+				D43EDD941D9CB0750053AB31 /* Resources */,
+				AFC1EF23D094FF1623EE0004 /* [CP] Embed Pods Frameworks */,
+				18220F3B80119145FFB79599 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Amaze;
+			productName = Amaze;
+			productReference = D43EDD961D9CB0750053AB31 /* Amaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D43EDD8E1D9CB0750053AB31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = AppEngine;
+				TargetAttributes = {
+					D43EDD951D9CB0750053AB31 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 32KZP98443;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D43EDD911D9CB0750053AB31 /* Build configuration list for PBXProject "Amaze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D43EDD8D1D9CB0750053AB31;
+			productRefGroup = D43EDD971D9CB0750053AB31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D43EDD951D9CB0750053AB31 /* Amaze */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D43EDD941D9CB0750053AB31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43EDDA61D9CB0750053AB31 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18220F3B80119145FFB79599 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amaze/Pods-Amaze-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AC76537C7C06A6C26690966 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFC1EF23D094FF1623EE0004 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Amaze/Pods-Amaze-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D43EDD921D9CB0750053AB31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43EDDA11D9CB0750053AB31 /* ViewController.m in Sources */,
+				D43EDD9E1D9CB0750053AB31 /* AppDelegate.m in Sources */,
+				D4F2656A1E45B26D002FD332 /* AEIndexViewController.m in Sources */,
+				D4BAF05D1E45B67700C59475 /* AEWebViewController.m in Sources */,
+				D48E058D1D9CB14500981CC1 /* AEViewController.m in Sources */,
+				D43EDD9B1D9CB0750053AB31 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D43EDDAB1D9CB0750053AB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D43EDDAC1D9CB0750053AB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D43EDDAE1D9CB0750053AB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A895E3658F3334D7EA94720C /* Pods-Amaze.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 32KZP98443;
+				INFOPLIST_FILE = Amaze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.engine.Amaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D43EDDAF1D9CB0750053AB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65C1DF1AF5E91001F9CF8A07 /* Pods-Amaze.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 32KZP98443;
+				INFOPLIST_FILE = Amaze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.engine.Amaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D43EDD911D9CB0750053AB31 /* Build configuration list for PBXProject "Amaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43EDDAB1D9CB0750053AB31 /* Debug */,
+				D43EDDAC1D9CB0750053AB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43EDDAD1D9CB0750053AB31 /* Build configuration list for PBXNativeTarget "Amaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43EDDAE1D9CB0750053AB31 /* Debug */,
+				D43EDDAF1D9CB0750053AB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D43EDD8E1D9CB0750053AB31 /* Project object */;
+}

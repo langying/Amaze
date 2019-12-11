@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="title_bar_btn_back1">#0000</drawable>
+    <drawable name="title_bar_btn_back2">#FF3030</drawable>
+
+</resources>
